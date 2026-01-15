@@ -1,0 +1,122 @@
+/* --- RESETEO OBLIGATORIO --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 10px;
+  margin: 2vh auto;
+  width: 80%;
+}
+
+/* --- CABECERA (Semántica: header) --- */
+header {
+  text-align: center;
+  border-bottom: 2px solid #ff4500;
+  margin-bottom: 1vh;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-family: "Impact", sans-serif;
+  color: #99330e;
+}
+
+header h2 {
+  color: #40e0d0;
+}
+
+/* --- ESTRUCTURA CENTRAL --- */
+.contenedor-central {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  padding: 20px 0;
+}
+
+/* --- BARRA LATERAL--- */
+aside {
+  width: 150px;
+  padding-right: 20px;
+  flex: 0 0 10%;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  margin-bottom: 15px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #ff4500;
+  font-weight: bold;
+}
+
+/* --- CONTENIDO PRINCIPAL --- */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- FILAS Y TARJETAS --- */
+.fila-superior,
+.fila-inferior {
+  display: flex;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.tarjeta-ancha {
+  flex: 2;
+}
+.tarjeta-grande {
+  flex: 1;
+}
+
+.fila-inferior .tarjeta {
+  flex: 1;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  color: #888;
+  font-size: 0.8em;
+}
+
+address {
+  font-style: italic;
+}
+
+.iconos img {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
