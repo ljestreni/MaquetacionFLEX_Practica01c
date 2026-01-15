@@ -22,11 +22,9 @@ El desarrollo se ha centrado en el uso de la propiedad `display: flex` para orga
 
 ## Despliegue
 
-Este proyecto no está desplegado en un servidor público, ya que se trata de una práctica local. Para visualizarlo:
+- **Despliegue**: https://ljestreni.github.io/MaquetacionFLEX_Practica01c/
 
-1.  Descarga el código o clona el repositorio.
-2.  Abre el archivo `maquetacionFLEX_Practica01c.html` directamente en tu navegador favorito (Chrome, Firefox, Edge, etc.).
-3.  Opcional: Si utilizas **Visual Studio Code**, puedes usar la extensión **Live Server** para iniciarlo en un servidor local y ver los cambios en tiempo real.\_
+- **Recursos adicionales**: https://github.com/ljestreni/Maquetacion-FLEX-Practica01c
 
 ## Construido con
 
@@ -45,3 +43,4 @@ Versión 1.0.0
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE para más detalles (si aplica).
+
