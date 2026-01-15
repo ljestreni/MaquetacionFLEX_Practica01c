@@ -24,7 +24,7 @@ El desarrollo se ha centrado en el uso de la propiedad `display: flex` para orga
 
 - **Despliegue**: https://ljestreni.github.io/MaquetacionFLEX_Practica01c/
 
-- **Recursos adicionales**: https://github.com/ljestreni/Maquetacion-FLEX-Practica01c
+- **Recursos adicionales**: https://github.com/ljestreni/MaquetacionFLEX_Practica01c
 
 ## Construido con
 
@@ -43,4 +43,5 @@ Versión 1.0.0
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE para más detalles (si aplica).
+
 
